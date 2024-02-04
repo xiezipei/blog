@@ -74,11 +74,23 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial', // tutorial顶部栏入口
+            label: 'Tutorial', // tutorial入口
           },
-          { to: '/blog', label: 'Blog', position: 'left' }, // blog顶部栏入口
+          { to: '/blog', label: 'Blog', position: 'left' }, // blog入口
           {
-            href: 'https://github.com/facebook/docusaurus', // github跳转入口
+            type: 'docSidebar',
+            sidebarId: 'reactSidebar',
+            position: 'left',
+            label: 'React', // react入口
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'weeklySidebar',
+            position: 'left',
+            label: 'Weekly', // weekly入口
+          },
+          {
+            href: 'https://github.com/facebook/docusaurus', // github入口（跳转外部链接）
             label: 'GitHub',
             position: 'right',
           },
