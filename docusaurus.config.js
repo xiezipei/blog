@@ -9,7 +9,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: `XZP's BLOG`,
-  tagline: 'Build personal technical knowledge system.',
+  // tagline: 'Build personal technical knowledge system.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -61,7 +61,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      // TODO: Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: `XZP's BLOG`,
