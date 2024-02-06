@@ -9,7 +9,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: `XZP's BLOG`,
-  tagline: 'Build a personal knowledge system.',
+  tagline: 'Build personal technical knowledge system.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -66,7 +66,7 @@ const config = {
       navbar: {
         title: `XZP's BLOG`,
         logo: {
-          alt: 'My Site Logo',
+          alt: 'logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -187,7 +187,7 @@ const config = {
             items: [
               {
                 label: '前端潮流周刊',
-                to: '/weekly',
+                to: '/docs/weekly/2024-02-04-weekly-001',
               },
               {
                 label: 'Blog',
