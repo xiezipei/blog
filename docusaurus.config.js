@@ -9,19 +9,19 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: `XZP's BLOG`,
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Build a personal knowledge system.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://www.xiezipei.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'xiezipei', // Usually your GitHub org/user name.
+  projectName: 'blog', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -30,8 +30,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -43,13 +43,13 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -70,12 +70,6 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial', // tutorial入口
-          },
           { to: '/blog', label: 'Blog', position: 'left' }, // blog入口
           {
             type: 'docSidebar',
@@ -150,50 +144,63 @@ const config = {
           },
         ],
       },
+      // 页面底部信息
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/tutorial/intro',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/zipeixie',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/xiezipei',
+              },
+              {
+                label: '稀土掘金',
+                href: 'https://juejin.cn/user/1926000099732126',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Links',
             items: [
+              {
+                label: '酷壳',
+                href: 'https://coolshell.cn/',
+              },
+              {
+                label: '阮一峰的网络日志',
+                href: 'https://www.ruanyifeng.com/blog/',
+              },
+              {
+                label: 'Hacker News',
+                href: 'https://news.ycombinator.com/',
+              },
+            ],
+          },
+          {
+            title: 'Shortcut',
+            items: [
+              {
+                label: '前端潮流周刊',
+                to: '/weekly',
+              },
               {
                 label: 'Blog',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Products',
+                to: '/docs/products',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Zipei Xie, Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
