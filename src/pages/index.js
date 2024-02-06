@@ -32,7 +32,7 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={``} description={siteConfig.tagline}>
+    <Layout>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
