@@ -194,8 +194,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'Products',
-                to: '/docs/products',
+                label: 'Projects',
+                to: '/docs/projects',
               },
             ],
           },
