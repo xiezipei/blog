@@ -67,7 +67,7 @@ const config = {
         title: `XZP's BLOG`,
         logo: {
           alt: 'logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.jpg',
         },
         items: [
           { to: '/blog', label: 'Blog', position: 'left' }, // blog入口
