@@ -96,7 +96,55 @@ const config = {
             label: 'Weekly', // weekly入口
           },
           {
-            href: 'https://github.com/facebook/docusaurus', // github入口（跳转外部链接）
+            type: 'docSidebar',
+            sidebarId: 'appSidebar',
+            position: 'left',
+            label: 'App', // app入口
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'backendSidebar',
+            position: 'left',
+            label: 'Backend', // backend入口
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'designSidebar',
+            position: 'left',
+            label: 'Design', // design入口
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'devopsSidebar',
+            position: 'left',
+            label: 'DevOps', // devops入口
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'frontendSidebar',
+            position: 'left',
+            label: 'Frontend', // frontend入口
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'leetcodeSidebar',
+            position: 'left',
+            label: 'LeetCode', // leetcode入口
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'productsSidebar',
+            position: 'right',
+            label: 'Products', // products入口
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'aboutSidebar',
+            position: 'right',
+            label: 'About', // about入口
+          },
+          {
+            href: 'https://github.com/xiezipei', // github入口（跳转外部链接）
             label: 'GitHub',
             position: 'right',
           },
