@@ -186,12 +186,12 @@ const config = {
             title: 'Shortcut',
             items: [
               {
-                label: '前端潮流周刊',
-                to: '/docs/weekly/2024-02-04-weekly-001',
-              },
-              {
                 label: 'Blog',
                 to: '/blog',
+              },
+              {
+                label: 'Weekly',
+                to: '/docs/weekly/2024-02-04-weekly-001',
               },
               {
                 label: 'Projects',
