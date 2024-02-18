@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '谢子沛的网络日志',
+  title: `XZP\'s BLOG`,
   tagline: 'Build personal technical knowledge system.',
   favicon: 'img/favicon.ico',
 
@@ -73,6 +73,12 @@ const config = {
           { to: '/blog', label: 'Blog', position: 'left' }, // blog入口
           {
             type: 'docSidebar',
+            sidebarId: 'weeklySidebar',
+            position: 'left',
+            label: 'Weekly', // weekly入口
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'vueSidebar',
             position: 'left',
             label: 'Vue', // vue入口
@@ -82,12 +88,6 @@ const config = {
             sidebarId: 'reactSidebar',
             position: 'left',
             label: 'React', // react入口
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'weeklySidebar',
-            position: 'left',
-            label: 'Weekly', // weekly入口
           },
           {
             type: 'docSidebar',
@@ -138,9 +138,9 @@ const config = {
             label: 'About', // about入口
           },
           {
-            href: 'https://github.com/xiezipei', // github入口（跳转外部链接）
-            label: 'GitHub',
+            href: 'https://github.com/xiezipei',
             position: 'right',
+            label: 'GitHub', // github入口（跳转外部链接）
           },
         ],
       },
