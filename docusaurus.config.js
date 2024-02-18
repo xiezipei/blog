@@ -127,9 +127,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'productsSidebar',
+            sidebarId: 'projectsSidebar',
             position: 'right',
-            label: 'Products', // products入口
+            label: 'Projects', // projects入口
           },
           {
             type: 'docSidebar',
@@ -194,8 +194,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'Products',
-                to: '/docs/products',
+                label: 'Projects',
+                to: '/docs/projects',
               },
             ],
           },
