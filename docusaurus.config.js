@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "XZP's BLOG",
+  title: '谢子沛的网络日志',
   tagline: 'Build personal technical knowledge system.',
   favicon: 'img/favicon.ico',
 
