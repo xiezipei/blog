@@ -2,7 +2,7 @@
 slug: technical-writing-notes
 title: 《技术写作指南》阅读笔记
 authors: xiezipei
-tags: [技术写作]
+tags: [技术写作, 阅读笔记]
 ---
 
 本文为掘金小册《技术写作指南》阅读笔记。
