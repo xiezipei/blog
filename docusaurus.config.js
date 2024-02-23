@@ -79,15 +79,15 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'vueSidebar',
-            position: 'left',
-            label: 'Vue', // vue入口
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'reactSidebar',
             position: 'left',
             label: 'React', // react入口
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'vueSidebar',
+            position: 'left',
+            label: 'Vue', // vue入口
           },
           {
             type: 'docSidebar',
