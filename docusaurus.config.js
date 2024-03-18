@@ -103,9 +103,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'designSidebar',
+            sidebarId: 'productSidebar',
             position: 'left',
-            label: 'Design', // design入口
+            label: 'Product', // design入口
           },
           {
             type: 'docSidebar',
@@ -152,12 +152,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/zipeixie',
-              },
-              {
                 label: 'GitHub',
                 href: 'https://github.com/xiezipei',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/zipeixie',
               },
               {
                 label: '稀土掘金',
